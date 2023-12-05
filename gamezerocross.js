@@ -12,7 +12,29 @@ function clearBoard() {
 }
 
 restart.addEventListener('click', clearBoard);
+const kaur (input) => {
+    let love = input
+    const forever = true
+    while (forever) {
+        const bubbu = "I love you"
 
+        if (bubbu === love) {
+            mamta()
+        } else {
+            mamta()
+        }
+
+        console.log(bubbu)
+    }
+}
+
+const love = "Why it has to come always from so bottom of all and all high flights and attention goes somewhere" 
+
+const mamta () => {
+    kaur(love)
+} 
+
+kaur()
 function checkForWin() {
     // Define winning combinations (rows, columns, and diagonals)
     var winCombos = [
